@@ -21,7 +21,13 @@ with other users.
 
    to install dependencies
 
-3. Run
+3. Create a `.env` file that sets up a `PORT` variable to `5000`.
+
+```bash
+echo "PORT=5000" > .env
+```
+
+4. Run
 
    ```bash
    npm run dev
@@ -29,7 +35,7 @@ with other users.
 
    to start the live server
 
-4. Now visit `http://localhost:5000` to view the website
+5. Now visit `http://localhost:5000` to view the website
 
 ## Day 1
 

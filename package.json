@@ -8,7 +8,7 @@
     "db:reset": "sqlite3 db/db.sqlite < db/migrations/1-reset.sql",
     "db:seed": "sqlite3 db/db.sqlite < db/migrations/2-seed.sql",
     "dev": "nodemon server/run.js",
-    "test": "mocha",
+    "test": "mocha ./test/exercises/",
     "test:d1e1": "mocha ./test/exercises/d1e1.test.js",
     "test:d1e2": "mocha ./test/exercises/d1e2.test.js",
     "test:d1e3": "mocha ./test/exercises/d1e3.test.js",
